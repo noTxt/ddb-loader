@@ -1,0 +1,24 @@
+{
+  "name": "dynoloader",
+  "version": "0.0.0",
+  "description": "Loads csv data into DynamoDB",
+  "main": "dynoloader.js",
+  "bin": {
+    "dynoloader": "./dynoloader.js"
+  },
+  "preferGlobal": true,
+  "author": "Michael Schoenfelder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noTxt/dynoloader.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.1.4",
+    "commander": "^2.5.1"
+  }
+}
